@@ -8,6 +8,7 @@ function theBeatlesPlay(musicians, instr) {
 
 function johnLennonFacts(facts) {
   let arr = []
+<<<<<<< HEAD
   for (let i=0; i<facts.length; i++) {
     arr.push(`${facts[i]}!!!`)
   }
@@ -21,4 +22,10 @@ function iLoveTheBeatles(num) {
     num += 1
   } while(num < 15)
   return arr
+=======
+  facts.forEach(function(fact)) {
+    arr.push(fact + `!!!`)
+  }
+  return arr
+>>>>>>> b68304997bea8d4accca5d6ca5d88805d349bb2b
 }
